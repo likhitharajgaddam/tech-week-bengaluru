@@ -117,7 +117,7 @@ export default function Navbar() {
 
           {/* ── Nav links — perfectly centered via absolute ── */}
           <nav
-            className="hidden md:flex"
+            className="hidden lg:flex"
             style={{
               position: "absolute",
               left: "50%",
@@ -172,7 +172,7 @@ export default function Navbar() {
               onClick={() => go("#register")}
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
-              className="hidden md:flex"
+              className="hidden lg:flex"
               style={{
                 height: 40,
                 padding: "0 20px",
@@ -195,7 +195,7 @@ export default function Navbar() {
 
             <button
               onClick={() => setMobileOpen(v => !v)}
-              className="md:hidden"
+              className="lg:hidden"
               style={{
                 width: 40, height: 40,
                 background: "rgba(255,255,255,0.05)",

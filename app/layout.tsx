@@ -78,6 +78,17 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://techweekbengaluru.in",
   },
+
+  /* Icons ─────────────────────────────────────────────────────── */
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/apple-icon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/icon.svg",
+  },
 };
 
 export const viewport: Viewport = {
