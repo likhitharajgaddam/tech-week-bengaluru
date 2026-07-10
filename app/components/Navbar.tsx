@@ -115,14 +115,13 @@ export default function Navbar() {
             </span>
           </button>
 
-          {/* ── Nav links — perfectly centered via absolute ── */}
+          {/* ── Nav links — desktop only (lg+), hidden on mobile via Tailwind ── */}
           <nav
             className="hidden lg:flex"
             style={{
               position: "absolute",
               left: "50%",
               transform: "translateX(-50%)",
-              display: "flex",
               alignItems: "center",
               gap: 2,
             }}
@@ -203,7 +202,7 @@ export default function Navbar() {
                 borderRadius: 10,
                 color: "#fff",
                 cursor: "pointer",
-                display: "flex", alignItems: "center", justifyContent: "center",
+                alignItems: "center", justifyContent: "center",
               }}
             >
               {mobileOpen ? <X size={17} /> : <Menu size={17} />}
