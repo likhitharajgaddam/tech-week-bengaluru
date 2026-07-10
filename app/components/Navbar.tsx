@@ -52,9 +52,10 @@ export default function Navbar() {
           right: 0,
           zIndex: 100,
           display: "flex",
+          alignItems: "center",
           justifyContent: "center",
-          /* 32 px gap from very top of viewport */
           paddingTop: 20,
+          paddingBottom: 0,
           paddingLeft: 24,
           paddingRight: 24,
         }}
@@ -69,6 +70,7 @@ export default function Navbar() {
             width: "100%",
             maxWidth: 1200,
             height: 72,
+            minHeight: 72,
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
@@ -202,7 +204,8 @@ export default function Navbar() {
                 borderRadius: 10,
                 color: "#fff",
                 cursor: "pointer",
-                alignItems: "center", justifyContent: "center",
+                display: "flex", alignItems: "center", justifyContent: "center",
+                flexShrink: 0,
               }}
             >
               {mobileOpen ? <X size={17} /> : <Menu size={17} />}
