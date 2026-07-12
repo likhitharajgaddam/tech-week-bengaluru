@@ -21,8 +21,10 @@ const quickLinks = [
 ];
 
 const officialLinks = [
-  { label: "Build with Gemma",   href: "https://build-with-gemma-bengaluru-ai-sprint.devfolio.co/overview" },
-  { label: "IEEE ITC India 2026", href: "https://itctestweekindia.org/agenda" },
+  { label: "NXP Tech Days Bengaluru",     href: "https://www.aicas.com/events/nxp-tech-days-bengaluru-2026/" },
+  { label: "ABBYY Ascend DevCon 2026",    href: "https://www.meetup.com/abbyy-ascend-devcon-2026/events/315423262/" },
+  { label: "India Agentic AI Hackathon",  href: "https://www.openhackathons.org/s/siteevent/a0CUP00004gn7e32AA/se000496" },
+  { label: "AI Mobile Coders Meetup",     href: "https://aimobilecoders.com/?utm_source=luma" },
 ];
 
 export default function Footer() {
@@ -63,13 +65,13 @@ export default function Footer() {
                 <Zap size={18} color="#fff" />
               </div>
               <div>
-                <p style={{ fontSize: 15, fontWeight: 700, color: "#fff", lineHeight: 1.2, letterSpacing: "-0.01em" }}>Tech Week Bengaluru</p>
+                <p style={{ fontSize: 15, fontWeight: 700, color: "#fff", lineHeight: 1.2, letterSpacing: "-0.01em" }}>Bengaluru AI &amp; Dev Week</p>
                 <p style={{ fontSize: 12, color: "#6B7280" }}>2026 Edition</p>
               </div>
             </div>
 
             <p style={{ fontSize: 14, color: "#9CA3AF", lineHeight: 1.72, maxWidth: 320, marginBottom: 24 }}>
-              A curated 7-day personal tech itinerary exploring AI, software engineering, developer communities, conferences, and hackathons across Bengaluru.
+              A curated 6-day tech itinerary exploring AI, embedded systems, enterprise software, hackathons and developer communities across Bengaluru.
             </p>
 
             {/* Date badge */}
@@ -81,7 +83,7 @@ export default function Footer() {
                   background: "rgba(37,99,235,0.1)", border: "1px solid rgba(37,99,235,0.22)", color: "#93C5FD",
                 }}
               >
-                17–23 July 2026 · Bengaluru
+              21–26 July 2026 · Bengaluru
               </span>
             </div>
 
@@ -190,7 +192,7 @@ export default function Footer() {
           className="flex flex-wrap items-center justify-between"
           style={{ paddingTop: 32, gap: 12 }}
         >
-          <p style={{ fontSize: 14, color: "#4B5563" }}>© 2026 Tech Week Bengaluru. All rights reserved.</p>
+          <p style={{ fontSize: 14, color: "#4B5563" }}>© 2026 Bengaluru AI &amp; Developer Week. All rights reserved.</p>
           <p style={{ fontSize: 14, color: "#4B5563" }}>Built with ❤️ for the Bengaluru tech community</p>
         </div>
       </div>

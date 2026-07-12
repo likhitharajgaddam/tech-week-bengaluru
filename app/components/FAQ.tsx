@@ -28,7 +28,7 @@ export default function FAQ() {
             FAQ
           </div>
           <h2 className="text-section" style={{ marginBottom: 16 }}>Frequently Asked</h2>
-          <p className="text-subtitle">Everything you need to know about Tech Week Bengaluru 2026.</p>
+          <p className="text-subtitle">Everything you need to know about Bengaluru AI &amp; Developer Week 2026.</p>
         </motion.div>
 
         {/* ── Accordion — max-width 900px, left-aligned ─── */}

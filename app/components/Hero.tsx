@@ -21,10 +21,10 @@ const SYMBOLS = [
 
 /* Stats displayed below subtitle */
 const STATS = [
-  { icon: Calendar, label: "17–23 July 2026",    color: "#2563EB" },
-  { icon: MapPin,   label: "Bengaluru",           color: "#7C3AED" },
-  { icon: Zap,      label: "7 Days",              color: "#0EA5E9" },
-  { icon: Mic,      label: "4 Events",            color: "#10B981" },
+  { icon: Calendar, label: "21–26 July 2026", color: "#2563EB" },
+  { icon: MapPin,   label: "Bengaluru",        color: "#7C3AED" },
+  { icon: Zap,      label: "6 Days",           color: "#0EA5E9" },
+  { icon: Mic,      label: "4 Major Events",   color: "#10B981" },
 ];
 
 export default function Hero() {
@@ -245,7 +245,7 @@ export default function Hero() {
           }}
         >
           <span style={{ display: "inline-block", width: 6, height: 6, borderRadius: "50%", background: "#2563EB", boxShadow: "0 0 8px #2563EB" }} />
-          17–23 July 2026 &nbsp;·&nbsp; Bengaluru, Karnataka
+          21–26 July 2026 &nbsp;·&nbsp; Bengaluru, Karnataka
         </motion.div>
 
         {/* 2 — Heading — two distinct lines ───────────────── */}
@@ -255,11 +255,11 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           style={{ marginBottom: 24 }}
         >
-          {/* Line 1: "Tech Week" — white, slightly smaller */}
+          {/* Line 1: "Bengaluru AI &" — white */}
           <div className="text-hero-line1" style={{ display: "block" }}>
-            Tech Week
+            Bengaluru AI &amp;
           </div>
-          {/* Line 2: "Bengaluru 2026" — gradient, bigger */}
+          {/* Line 2: "Developer Week 2026" — gradient */}
           <div
             className="text-hero-line2"
             style={{
@@ -270,7 +270,7 @@ export default function Hero() {
               backgroundClip: "text",
             }}
           >
-            Bengaluru 2026
+            Developer Week 2026
           </div>
         </motion.div>
 
@@ -288,7 +288,7 @@ export default function Hero() {
             color: "#9CA3AF",
           }}
         >
-          A curated week of AI, software engineering, conferences and hackathons across Bengaluru.
+          A curated week exploring AI, embedded systems, enterprise software, hackathons and developer communities across Bengaluru.
         </motion.p>
 
         {/* 4 — Stats row ─────────────────────────────────────── */}

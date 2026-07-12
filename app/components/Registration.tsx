@@ -36,7 +36,7 @@ export default function Registration() {
             Register
           </div>
           <h2 className="text-section" style={{ marginBottom: 16 }}>Register Your Interest</h2>
-          <p className="text-subtitle">Be the first to get updates about Tech Week Bengaluru 2026.</p>
+          <p className="text-subtitle">Be the first to get updates about Bengaluru AI &amp; Developer Week 2026.</p>
         </motion.div>
 
         {/* ── Form container — 720 px centered ────────── */}
@@ -88,7 +88,7 @@ export default function Registration() {
                   </motion.div>
                   <h3 style={{ fontSize: 24, fontWeight: 800, color: "#fff", marginBottom: 12 }}>You&apos;re on the list!</h3>
                   <p style={{ fontSize: 16, color: "#9CA3AF", maxWidth: 380 }}>
-                    Thanks for registering interest in Tech Week Bengaluru 2026. We&apos;ll be in touch soon.
+                    Thanks for registering interest in Bengaluru AI &amp; Developer Week 2026. We&apos;ll be in touch soon.
                   </p>
                   <button
                     onClick={() => setSubmitted(false)}
@@ -132,7 +132,7 @@ export default function Registration() {
                   </motion.button>
 
                   <p style={{ textAlign: "center", fontSize: 13, color: "#6B7280" }}>
-                    No spam. Just updates about Tech Week Bengaluru 2026.
+                    No spam. Just updates about Bengaluru AI &amp; Developer Week 2026.
                   </p>
                 </form>
               )}

@@ -5,9 +5,9 @@ import { Calendar, MapPin, Brain, Code2, Users, Presentation, Trophy, Network, L
 
 const focusAreas = [
   { label: "Artificial Intelligence",  icon: Brain,        color: "#7C3AED" },
-  { label: "Software Engineering",     icon: Code2,        color: "#2563EB" },
-  { label: "Developer Communities",    icon: Users,        color: "#0EA5E9" },
-  { label: "Technical Conferences",    icon: Presentation, color: "#10B981" },
+  { label: "Embedded Systems",         icon: Code2,        color: "#2563EB" },
+  { label: "Enterprise Software",      icon: Presentation, color: "#0EA5E9" },
+  { label: "Developer Communities",    icon: Users,        color: "#10B981" },
   { label: "Hackathons",               icon: Trophy,       color: "#F59E0B" },
   { label: "Networking",               icon: Network,      color: "#EC4899" },
   { label: "Innovation",               icon: Lightbulb,    color: "#818CF8" },
@@ -16,7 +16,7 @@ const focusAreas = [
 const infoCards = [
   {
     icon: Calendar, label: "Duration",
-    value: "17 July – 23 July 2026", sub: "7 Days of Tech",
+    value: "21 July – 26 July 2026", sub: "6 Days of Tech",
     color: "#2563EB",
   },
   {
@@ -27,9 +27,9 @@ const infoCards = [
 ];
 
 const stats = [
-  { num: "7",  label: "Days"        },
+  { num: "6",  label: "Days"        },
   { num: "4",  label: "Events"      },
-  { num: "2",  label: "Venues"      },
+  { num: "4+", label: "Venues"      },
   { num: "∞",  label: "Connections" },
 ];
 
@@ -53,7 +53,7 @@ export default function Overview() {
             Overview
           </div>
           <h2 className="text-section" style={{ marginBottom: 16 }}>The Week at a Glance</h2>
-          <p className="text-subtitle">Everything you need to know about Tech Week Bengaluru 2026.</p>
+          <p className="text-subtitle">Everything you need to know about Bengaluru AI &amp; Developer Week 2026.</p>
         </motion.div>
 
         {/* ── Info cards — 2-col equal-height grid ───── */}

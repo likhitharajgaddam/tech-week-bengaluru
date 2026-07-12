@@ -176,8 +176,8 @@ export default function Timeline() {
           >
             Timeline
           </div>
-          <h2 className="text-section" style={{ marginBottom: 16 }}>Your 7-Day Journey</h2>
-          <p className="text-subtitle">A day-by-day breakdown of everything happening at Tech Week Bengaluru 2026.</p>
+          <h2 className="text-section" style={{ marginBottom: 16 }}>Your 6-Day Journey</h2>
+          <p className="text-subtitle">A day-by-day breakdown of everything happening at Bengaluru AI &amp; Developer Week 2026.</p>
         </motion.div>
 
         {/* ── Desktop alternating timeline ──────────── */}

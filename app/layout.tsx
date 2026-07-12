@@ -15,23 +15,23 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://techweekbengaluru.in"),
 
   title: {
-    default: "Tech Week Bengaluru 2026 | AI, Conferences & Hackathons",
-    template: "%s | Tech Week Bengaluru 2026",
+    default: "Bengaluru AI & Developer Week 2026 | AI, Embedded Systems & Hackathons",
+    template: "%s | Bengaluru AI & Developer Week 2026",
   },
 
   description:
-    "Explore Bengaluru's biggest week of AI conferences, IEEE events, hackathons, networking sessions, and developer communities from 17–23 July 2026.",
+    "A curated week exploring AI, embedded systems, enterprise software, hackathons and developer communities across Bengaluru. 21–26 July 2026.",
 
   keywords: [
-    "Tech Week Bengaluru",
-    "Bengaluru tech events 2026",
-    "IEEE ITC India 2026",
-    "Build with Gemma AI Sprint",
-    "India Agentic AI Hackathon",
-    "NVIDIA hackathon India",
+    "Bengaluru AI Developer Week 2026",
+    "NXP Tech Days Bengaluru 2026",
+    "ABBYY Ascend DevCon 2026",
+    "India Agentic AI Open Hackathon",
+    "AI Mobile Coders Meetup Bengaluru",
+    "embedded systems conference India",
+    "enterprise AI conference Bengaluru",
     "developer conference Bengaluru",
     "AI workshop Bengaluru",
-    "software engineering conference India",
     "hackathon Bengaluru July 2026",
   ],
 
@@ -51,15 +51,15 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: "https://techweekbengaluru.in",
     siteName: "Tech Week Bengaluru 2026",
-    title: "Tech Week Bengaluru 2026 | AI, Conferences & Hackathons",
+    title: "Bengaluru AI & Developer Week 2026 | AI, Embedded Systems & Hackathons",
     description:
-      "Explore Bengaluru's biggest week of AI conferences, IEEE events, hackathons, networking sessions, and developer communities from 17–23 July 2026.",
+      "A curated week exploring AI, embedded systems, enterprise software, hackathons and developer communities across Bengaluru. 21–26 July 2026.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Tech Week Bengaluru 2026 — 17–23 July",
+        alt: "Bengaluru AI & Developer Week 2026 — 21–26 July",
       },
     ],
   },
@@ -67,9 +67,9 @@ export const metadata: Metadata = {
   /* Twitter / X Card ─────────────────────────────────────────── */
   twitter: {
     card: "summary_large_image",
-    title: "Tech Week Bengaluru 2026 | AI, Conferences & Hackathons",
+    title: "Bengaluru AI & Developer Week 2026 | AI, Embedded Systems & Hackathons",
     description:
-      "Explore Bengaluru's biggest week of AI conferences, IEEE events, hackathons, networking sessions, and developer communities from 17–23 July 2026.",
+      "A curated week exploring AI, embedded systems, enterprise software, hackathons and developer communities across Bengaluru. 21–26 July 2026.",
     images: ["/og-image.png"],
     creator: "@TechWeekBLR",
   },

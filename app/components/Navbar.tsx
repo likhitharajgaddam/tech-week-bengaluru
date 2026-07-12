@@ -113,7 +113,7 @@ export default function Navbar() {
               <Zap size={16} color="#fff" />
             </div>
             <span style={{ fontSize: 15, fontWeight: 700, color: "#fff", letterSpacing: "-0.02em", whiteSpace: "nowrap" }}>
-              Tech Week <span style={{ color: "#6B7280", fontWeight: 400 }}>BLR 2026</span>
+              BLR AI Week <span style={{ color: "#6B7280", fontWeight: 400 }}>2026</span>
             </span>
           </button>
 
