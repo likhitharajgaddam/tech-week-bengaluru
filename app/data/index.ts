@@ -108,7 +108,7 @@ export const timelineData = [
     ],
     description:
       "Close out the week with the AI Mobile Coders Meetup — community talks on AI-powered mobile apps, GenAI and cross-platform development, hands-on workshops and open networking.",
-    link: "https://aimobilecoders.com/?utm_source=luma",
+    link: "https://aimobilecoders.com/events/2",
     linkLabel: "View Official Event",
     badge: "AI Community",
   },
@@ -182,7 +182,7 @@ export const eventsData = [
       "Developer community sessions covering AI-powered mobile applications, GenAI, cross-platform development, networking, and collaborative discussions.",
     color: "#10B981",
     tag: "AI Community",
-    link: "https://aimobilecoders.com/?utm_source=luma",
+    link: "https://aimobilecoders.com/events/2",
     ctaLabel: "Learn More",
     scrollTo: null,
   },
@@ -259,7 +259,7 @@ export const scheduleData = [
     day: "Day 6",
     date: "26 July",
     title: "AI Mobile Coders Meetup",
-    link: "https://aimobilecoders.com/?utm_source=luma",
+    link: "https://aimobilecoders.com/events/2",
     linkLabel: "View Official Event",
     slots: {
       morning:   "Community Talks: AI-Powered Mobile Apps",

@@ -24,7 +24,7 @@ const officialLinks = [
   { label: "NXP Tech Days Bengaluru",     href: "https://www.aicas.com/events/nxp-tech-days-bengaluru-2026/" },
   { label: "ABBYY Ascend DevCon 2026",    href: "https://www.meetup.com/abbyy-ascend-devcon-2026/events/315423262/" },
   { label: "India Agentic AI Hackathon",  href: "https://www.openhackathons.org/s/siteevent/a0CUP00004gn7e32AA/se000496" },
-  { label: "AI Mobile Coders Meetup",     href: "https://aimobilecoders.com/?utm_source=luma" },
+  { label: "AI Mobile Coders Meetup",     href: "https://aimobilecoders.com/events/2" },
 ];
 
 export default function Footer() {
